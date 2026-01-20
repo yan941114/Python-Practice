@@ -1,0 +1,5 @@
+file = open("Practice/3/read.txt", "w+", encoding="utf-8")
+file.write("660\n")
+file.seek(0)
+print(file.read())
+file.close()
